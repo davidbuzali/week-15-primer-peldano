@@ -49,7 +49,7 @@ export function rehearseAgreement(form: FormData) {
       '',
       'RR. HH. canaliza un caso elegible antes del filtro habitual de CV.',
       'La persona revisora responde por escrito dentro del plazo y explica el resultado con el criterio acordado.',
-      'Para usar el formato en una vacante real, confirma el responsable y una fecha concreta con RR. HH. y Calidad.',
+      'Para una vacante real: antes de publicar, confirma con RR. HH. y Calidad qué hace elegible un caso, quién lo recibe y en qué fecha responderá. Usa el canal interno de tu empresa.',
     ].join('\n'),
   }
 }

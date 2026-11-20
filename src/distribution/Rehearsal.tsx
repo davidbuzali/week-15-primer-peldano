@@ -29,7 +29,7 @@ export default function Rehearsal() {
       <div>
         <p className="distribution-kicker">Ejemplo ficticio</p>
         <h2 id="rehearsal-title">Ensaya el acuerdo de revisión</h2>
-        <p>Elige cuatro opciones para una vacante de control de calidad. Las selecciones se quedan en esta página y puedes descargar el acuerdo de práctica.</p>
+        <p>Elige cuatro opciones para una vacante de control de calidad. El acuerdo de práctica se genera y descarga en tu navegador.</p>
       </div>
       <div className="distribution-rehearsal-panel">
         <form onSubmit={prepareAgreement} onReset={clearAgreement} onChange={clearAgreement}>
@@ -57,7 +57,8 @@ export default function Rehearsal() {
                 <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
               ))}
             </dl>
-            <p>RR. HH. canaliza el caso antes del filtro de CV. La persona revisora responde por escrito con el criterio y dentro del plazo.</p>
+            <p>RR. HH. canaliza un caso elegible antes del filtro de CV. La persona revisora responde por escrito con el criterio y dentro del plazo.</p>
+            <p><strong>Para una vacante real:</strong> antes de publicar, confirma con RR. HH. y Calidad qué hace elegible un caso, quién lo recibe y en qué fecha responderá. Usa el canal interno de tu empresa.</p>
             <a className="distribution-button" href={`data:text/plain;charset=UTF-8,${encodeURIComponent(agreement.text)}`} download="acuerdo-primer-peldano.txt">
               Descargar acuerdo de práctica
             </a>
