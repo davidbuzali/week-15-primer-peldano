@@ -46,7 +46,8 @@
   text-decoration: none;
   cursor: pointer;
 }
-.distribution-button:hover { background: var(--ink); border-color: var(--ink); }
+.distribution-button:disabled { opacity: .6; cursor: default; }
+.distribution-button:hover:not(:disabled) { background: var(--ink); border-color: var(--ink); }
 .distribution-library { padding-block: 22px 45px; border-top: 1px solid #c7bcab; }
 .distribution-library > h2 { margin: 0 0 18px; }
 .distribution-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }

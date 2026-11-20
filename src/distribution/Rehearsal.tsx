@@ -1,9 +1,14 @@
 'use client'
 
-import { useEffect, useRef, useState, type FormEvent } from 'react'
+import { useEffect, useRef, useState, useSyncExternalStore, type FormEvent } from 'react'
 import { agreementFields, rehearseAgreement, vacancy } from './agreement'
 
+const subscribeToHydration = () => () => {}
+const getClientSnapshot = () => true
+const getServerSnapshot = () => false
+
 export default function Rehearsal() {
+  const ready = useSyncExternalStore(subscribeToHydration, getClientSnapshot, getServerSnapshot)
   const [agreement, setAgreement] = useState<ReturnType<typeof rehearseAgreement>>(null)
   const [error, setError] = useState(false)
   const result = useRef<HTMLHeadingElement>(null)
@@ -45,7 +50,7 @@ export default function Rehearsal() {
           ))}
           {error && <p role="alert">Selecciona una opción válida en cada campo.</p>}
           <div className="distribution-form-actions">
-            <button className="distribution-button" type="submit">Generar acuerdo</button>
+            <button className="distribution-button" type="submit" disabled={!ready}>Generar acuerdo</button>
             <button className="distribution-text-button" type="reset">Limpiar</button>
           </div>
         </form>
