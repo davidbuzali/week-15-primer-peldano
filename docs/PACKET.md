@@ -19,7 +19,9 @@ OCC's employer guide documents where employers set experience, schooling, skills
 
 **Scope and architecture.** Extend the Week 14 Next.js/TypeScript app at its normal entry point. Keep the calculator at /tarifa and the worker demo at /evidence. The public Week 15 route uses labeled invented data and fixed client-side options. It has no form submission, storage, tracker, applicant upload, employer inbox, hiring score or new database/API dependency.
 
-**Mockup.** Image-generated UI concept requested before implementation. Attach it here after visual review. The implemented page and approved copy are the reference for behavior.
+**Mockup.** The pre-code concept uses the built-in image generator. The prompt specified an editorial web mockup with a cream-and-teal layout, textile still life, fictional-example label and three resource cards. The implemented page is the reference for behavior.
+
+![Generated Week 15 editorial mockup](assets/primer-peldano-week15-mockup.png)
 
 ## Brand
 

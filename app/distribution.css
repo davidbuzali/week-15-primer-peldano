@@ -1,0 +1,93 @@
+.distribution {
+  --edition-accent: #0e625b;
+  --edition-paper: #f5f0e6;
+  --edition-tint: #eed8a7;
+  min-height: 100vh;
+  background: var(--edition-paper);
+}
+
+.distribution a, .distribution button, .distribution select { touch-action: manipulation; }
+.distribution-header, .distribution-main, .distribution-footer { width: min(100% - 72px, 1240px); margin-inline: auto; }
+.distribution-header > div, .distribution-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+.distribution-header > div { min-height: 77px; border-bottom: 1px solid var(--ink); }
+.distribution-brand { font: 700 clamp(1.6rem,4vw,2.5rem)/1 var(--font-display); text-decoration: none; white-space: nowrap; }
+.distribution-brand span { color: var(--edition-accent); }
+.distribution nav { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: .88rem; font-weight: 600; }
+.distribution nav a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
+.distribution nav a:hover, .distribution-cards a:hover { text-decoration: underline; }
+.distribution-hero { display: grid; grid-template-columns: 1fr .95fr; gap: clamp(24px, 6vw, 92px); align-items: center; padding-block: 45px 43px; }
+.distribution-hero figure { margin: 0; }
+.distribution-hero img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.distribution h1, .distribution h2, .distribution h3 { font-family: var(--font-display); font-weight: 700; }
+.distribution h1 { margin: 10px 0 15px; font-size: clamp(3.15rem, 6.2vw, 6rem); line-height: .99; letter-spacing: -.055em; text-wrap: balance; }
+.distribution h2 { font-size: clamp(2rem, 3.7vw, 3.5rem); line-height: 1.02; letter-spacing: -.034em; }
+.distribution h3 { font-size: 1.65rem; line-height: 1.12; letter-spacing: -.022em; }
+.distribution-kicker { font-size: .75rem; letter-spacing: .105em; font-weight: 800; text-transform: uppercase; color: var(--edition-accent); }
+.distribution-kicker span { display: inline-block; margin-left: 6px; padding: 4px 8px; background: var(--edition-tint); color: var(--ink); }
+.distribution-deck { max-width: 38rem; color: var(--ink-soft); font-size: clamp(1.06rem, 1.7vw, 1.32rem); line-height: 1.55; margin-block: 16px 25px; }
+.distribution-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  min-height: 45px;
+  padding: 10px 16px;
+  border: 1px solid var(--edition-accent);
+  border-radius: 3px;
+  background: var(--edition-accent);
+  color: #fffdf8;
+  font-weight: 720;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.distribution-button:hover { background: var(--ink); border-color: var(--ink); }
+.distribution-library { padding-block: 22px 45px; border-top: 1px solid #c7bcab; }
+.distribution-library > h2 { margin: 0 0 18px; }
+.distribution-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.distribution-cards article { display: grid; align-content: start; grid-template-rows: auto auto 1fr auto; gap: 10px; padding: 19px; border: 1px solid #c7bcab; background: #fcf8f0; }
+.distribution-cards p, .distribution-cards h3 { margin: 0; }
+.distribution-cards p:not(.distribution-kicker) { color: var(--ink-soft); }
+.distribution-cards a { width: fit-content; display: inline-flex; align-items: center; min-height: 44px; gap: 8px; color: var(--edition-accent); font-weight: 750; text-decoration: none; }
+.distribution-rehearsal { display: grid; grid-template-columns: .8fr 1.2fr; gap: 32px; padding: clamp(20px,4vw,48px); margin-bottom: 52px; background: #e7eee6; scroll-margin-top: 12px; }
+.distribution-rehearsal h2 { margin-block: 8px 16px; }
+.distribution-rehearsal p { max-width: 38rem; }
+.distribution-rehearsal-panel { padding: clamp(15px,2.5vw,27px); background: #fffdf8; border: 1px solid #aebdb5; min-width: 0; }
+.distribution-vacancy { font-weight: 750; margin-bottom: 14px; }
+.distribution-rehearsal label { display: grid; gap: 5px; min-width: 0; font-weight: 680; margin-bottom: 12px; }
+.distribution-rehearsal select { color: var(--ink); background: #fff; padding: 8px; width: 100%; min-height: 45px; font-weight: 500; border: 1px solid #869891; border-radius: 3px; }
+.distribution-form-actions { display: flex; flex-wrap: wrap; gap: 8px 15px; margin-top: 18px; }
+.distribution-text-button { padding: 9px 12px; background: transparent; border: 0; font-weight: 700; color: var(--edition-accent); text-decoration: underline; cursor: pointer; }
+.distribution-result { border-top: 1px solid #aebdb5; margin-top: 22px; padding-top: 15px; }
+.distribution-result h3 { margin-bottom: 10px; }
+.distribution-result dl > div { border-bottom: 1px solid #dadfda; padding-block: 6px; }
+.distribution-result dt { font-size: .86rem; font-weight: 740; }
+.distribution-result dd { margin: 0 0 2px; }
+.distribution-result p { margin-block: 13px; }
+.distribution-article { max-width: 770px; margin-inline: auto; padding-block: 47px 54px; }
+.distribution-article h1 { font-size: clamp(2.7rem, 6.5vw, 5.2rem); text-wrap: unset; }
+.distribution-steps { margin-block: 26px; padding: 0; list-style: none; }
+.distribution-steps li { padding-block: 19px; border-top: 1px solid #c7bcab; }
+.distribution-steps h2 { font-size: clamp(1.5rem, 4vw, 2.05rem); margin-bottom: 6px; }
+.distribution-steps p { max-width: 62ch; color: var(--ink-soft); }
+.distribution-steps .distribution-role { font-size: .8rem; color: var(--edition-accent); font-weight: 800; margin-bottom: 5px; }
+.distribution-action { padding: 17px; background: #e7eee6; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.distribution-footer { border-top: 1px solid #c7bcab; padding-block: 16px; color: var(--ink-soft); font-size: .82rem; }
+
+@media (max-width: 760px) {
+  .distribution-header, .distribution-main, .distribution-footer { width: calc(100% - 32px); }
+  .distribution-header > div, .distribution-footer { flex-wrap: wrap; align-content: center; }
+  .distribution-header > div { padding-top: 9px; gap: 0 16px; }
+  .distribution nav { gap: 2px 15px; }
+  .distribution-hero, .distribution-cards, .distribution-rehearsal { grid-template-columns: 1fr; }
+  .distribution-hero { padding-block: 27px; gap: 18px; }
+  .distribution-hero img { aspect-ratio: 3 / 2; }
+  .distribution h1 { font-size: clamp(2.65rem, 11vw, 4.8rem); }
+  .distribution-rehearsal { gap: 20px; }
+  .distribution-article { padding-block: 30px 42px; }
+}

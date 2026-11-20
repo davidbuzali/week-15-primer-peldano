@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import './distribution.css'
 
 export const metadata: Metadata = {
   title: 'Primer Peldaño | Tu trabajo también cuenta',
