@@ -114,3 +114,9 @@ The Week 9 history remains available in Git. Its last verified state used invent
 - Created the Vercel project `davidbuzali/week-12-primer-peldano` and connected it to the dedicated GitHub repository.
 - Retained the Week 9 repository and project as historical resources rather than overwriting or deleting them.
 - Kept `https://primer-peldano-mx.vercel.app` as the public venture URL of record while making the Week 12 project independently visible in both account dashboards.
+
+## Week 15 · distribution before scale
+
+The audience is an RR. HH. lead and a quality manager about to open a second-shift textile quality vacancy. Ship two shareable pieces, one boundaries note and one synthetic rehearsal on a separate Week 15 release based on this history. The same next action should work from both pieces. Keep real identities, marketing analytics and applicant evidence outside the product.
+
+Next move after verification is to secure David's approval of two outreach messages and use one opt-in channel. Track commitments and one verified adoption per vacancy separately. The blueprint is a pre-session draft. The 8% example and outreach counts from Brain Bending are hypothetical.

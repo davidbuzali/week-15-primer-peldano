@@ -1,219 +1,92 @@
-# Primer Peldaño - Week 14 build packet
+# Primer Peldaño · Week 15 Business Bending
 
-**Milestone:** La tarifa en vivo<br>
-**Prepared before Week 14 product code:** 12 November 2026<br>
-**Owner:** David Buzali<br>
-**Status:** Build contract; prices and benefits remain hypotheses until a real payer provides evidence.
+**David Buzali · Distribution and verified adoption · 19 November 2026**
 
-## Problem in my words
+## Strategy and build contract
 
-Primer Peldaño can describe an ethical five-review pilot, but it cannot yet conduct an honest price conversation. A budget owner needs to compare the employer's current screening task with the proposed pilot using the same unit, visible formulas, and evidence status. Today the MX$12,000 price, MX$6,000 estimated delivery cost, five-review capacity, and MX$120,000 10:1 hurdle are assumptions rather than measured commercial results.
+Primer Peldaño's first audience is the manager of a Mexican textile plant who needs to fill a second-shift quality-control vacancy. RR. HH. drafts the posting and owns the first screen. The quality manager owns the evidence criterion and response. The employer is the possible pilot payer. Workers pay MX$0.
 
-The Week 14 feature is therefore not a persuasive ROI widget. It is a **price-truth calculator** that can reveal when the case does not work. It reconstructs one current process, separates employer value from provider economics, saves alternative scenarios locally, and produces a compact assumption memo for a real conversation with a budget owner.
+The decision occurs while drafting the vacancy, before a routine CV screen can exclude a worker who learned on the job. The manager needs a way to accept a permitted example of work, route it and get a human response. Primer Peldaño adds a one-vacancy agreement around the plant's existing recruiting process. We make no promise that using it will result in a hire.
 
-## Exact user
+OCC's employer guide documents where employers set experience, schooling, skills, duties and schedule. It establishes a decision point for the content, without evidence of any given plant's review behavior. Opportunity@Work's STARs Hiring Playbook is the global comparator. Primer Peldaño applies its skills-first approach to an existing Mexican recruiting workflow with plain Spanish, a second-shift textile example, a permitted shift log or work description, and a human review commitment.
 
-The primary user is the person at a Mexican employer who can authorize and fund a bounded hiring pilot for one named opening: an owner, operations leader, HR leader, or talent-acquisition budget holder. They know or can obtain the employer's loaded review cost, current screening time, clarification burden, and vacancy consequences.
+- [OCC employer publication guide](https://supportcenter.occ.com.mx/hc/es/articles/41245639854737-Publica-tu-primera-vacante-en-OCC)
+- [Opportunity@Work STARs Hiring Playbook](https://www.opportunityatwork.org/take-action/psh/public-sector/stars-hiring-playbook)
 
-The worker is the protected beneficiary, not the calculator operator and not the payer. The calculator must never ask for candidate names, evidence, age, salary history, disability, behavior, or any other personal record. Workers continue to pay MX$0.
+**Product success.** A first-time visitor can go from either outreach piece to a working rehearsal for one vacancy. They can choose a criterion, acceptable evidence, a reviewer role and a response window, then generate and download an agreement with synthetic options. They can also download the one-page RR. HH. checklist, see the limits of the process and locate the Week 14 calculator and evidence demo.
 
-## Success definition
+**Field success.** One verified adoption per real vacancy requires RR. HH. to route at least one eligible application using the agreed alternative before the usual CV screen, and the named reviewer to respond against the published criterion by the agreed date. Introductions, opens, downloads and written commitments are earlier events. A committed vacancy waiting for a case remains pending.
 
-Before the Week 14 module closes, an employer-side user can open the public URL, create a scenario for one vacancy, enter a like-for-like baseline for five comparable reviews, mark every input as **measured**, **quoted**, or **assumed**, and see:
+**Scope and architecture.** Extend the Week 14 Next.js/TypeScript app at its normal entry point. Keep the calculator at /tarifa and the worker demo at /evidence. The public Week 15 route uses labeled invented data and fixed client-side options. It has no form submission, storage, tracker, applicant upload, employer inbox, hiring score or new database/API dependency.
 
-- the current five-review screening cost;
-- the MX$12,000 pilot price and the value required for a 10:1 case;
-- estimated provider delivery cost, contribution, and contribution margin;
-- comparable employer value and the resulting value-to-price ratio;
-- a plain-language verdict that can explicitly say the 10:1 threshold is not demonstrated;
-- the missing evidence that would make the scenario more credible.
+**Mockup.** Image-generated UI concept requested before implementation. Attach it here after visual review. The implemented page and approved copy are the reference for behavior.
 
-The user can save, reopen, duplicate, rename, and delete scenarios in the same browser; compare up to three scenarios; reset all local data; and print or export a one-page memo. No scenario is transmitted anywhere. The default invented scenario must fail the 10:1 threshold so the product demonstrates honesty rather than sales theater.
+## Brand
 
-## Image-generated mockup
+1. Write for RR. HH. and the quality lead in everyday Mexican Spanish. Name the role, task and shift.
+2. Describe a visible action and its owner. Make the next step usable inside a form and spreadsheet.
+3. State the source or evidence status near each claim. Use “ejemplo ficticio” where a reader might mistake a scenario for a result.
 
-The following mockup was generated before Week 14 product code. It is a design hypothesis, not evidence of value, demand, or working software. Its visible 6.8:1 result deliberately fails the 10:1 threshold.
+**Weak line** “Nuestra IA encuentra al mejor talento sin sesgos.”  
+**Rewrite** “Antes de filtrar por CV, acuerden qué evidencia puede aceptar RR. HH. y quién responderá por el turno de calidad.”
 
-![Image-generated Week 14 pricing calculator mockup](assets/primer-peldano-week14-pricing-mockup.png)
+**Design.** Deep navy #102D3F for copy, teal #0E625B for action, warm paper #F5F0E6 for reading, amber #EED8A7 for examples and limits. Serif display headings distinguish the editorial hierarchy from compact sans-serif steps and controls. Each piece opens with the hiring moment, states its evidence status, makes the handoff visible and ends with the same action. “Vacante,” “turno,” “bitácora” and “RR. HH.” fit the local workplace. The layout works on a phone and as paper at the start of a shift.
 
-## Feature flow
+## Six concepts
 
-```mermaid
-flowchart TD
-    A[Open La tarifa en vivo] --> B[Read limits and choose invented example or blank scenario]
-    B --> C[Name the vacancy without personal data]
-    C --> D[Enter current process for five comparable reviews]
-    D --> E[Enter pilot price and provider delivery assumptions]
-    E --> F[Enter only comparable employer value]
-    F --> G[Mark each input measured, quoted, or assumed]
-    G --> H[Validate ranges and calculate locally]
-    H --> I[Show formulas, margin, ratio, threshold, and missing evidence]
-    I --> J{Save scenario locally?}
-    J -- Yes --> K[Save, reopen, duplicate, compare, or delete]
-    J -- No --> L[Keep unsaved calculation in current session]
-    K --> M[Print or export one-page assumption memo]
-    L --> M
-    M --> N[Discuss with a real budget owner]
-    N --> O[Record rejection, next step, proposal, or purchase outside the calculator]
-```
+| Series | Finished this week | Planned next |
+| --- | --- | --- |
+| Caso de turno | Web walkthrough of a defect report from application to a criterion-linked response | “Una bitácora sin nombre comercial.” Rehearse with a permitted, redacted example. |
+| Antes de publicar | One-page printable checklist for RR. HH. and the quality lead | “La fecha de respuesta también se publica.” Check reviewer coverage before opening a vacancy. |
+| Límites de la revisión | Web field note on permission, evidence gaps and human review | “Qué decir cuando la evidencia no basta.” Name the missing detail and a permitted alternative. |
 
-## Actor swimlane
+## Content production and evidence
+
+**Real input to useful output.** OCC asks employers to choose experience and minimum schooling, optionally list skills, and describe duties and schedule. We identified the decision just before publishing and asked who would route acceptable evidence before the first screen. The RR. HH. checklist adds a criterion, acceptable evidence, owner and deadline to the existing workflow. Its defect example is fictional. This is a design inference from OCC's documentation.
+
+| Role | Input | Output | Quality check |
+| --- | --- | --- | --- |
+| Research | OCC employer guide and Week 15 brief | Sourced decision point and labeled audience hypothesis | Source describes these publication fields |
+| Writing | Decision point, RR. HH. and quality roles | Scenario, checklist and boundaries note | Every piece names its operator and next step |
+| Visual production | Reviewed copy and palette | Responsive HTML and printable PDF | Readable on phone and at letter size |
+| Evidence and claim review | Drafts, source, team shadow conditions | Claims marked sourced, fictional or pending | Remove unsupported savings and hiring claims |
+| Style review | Claim-checked pieces | Consistent Mexican Spanish and shared CTA | Labels, role names and status language match |
+| Revision and approval | Test notes and updated pieces | Version reviewed by David before outreach | Links and labels checked, intended recipients opted in |
 
 ```mermaid
 flowchart LR
-    subgraph BudgetOwner[Employer budget owner]
-      B1[Provides current process inputs]
-      B2[Labels evidence status]
-      B3[Challenges assumptions]
-      B4[Chooses whether to take a concrete next step]
+    subgraph Author[Author and reviewer]
+      A[Read source and identify decision] --> B[Write and produce]
+      B --> C[Check claims and style]
+      C --> D[David approves outreach]
     end
-    subgraph Calculator[Local calculator]
-      C1[Validates bounded numeric fields]
-      C2[Applies visible deterministic formulas]
-      C3[Separates buyer value from provider economics]
-      C4[Saves scenarios in this browser only]
-      C5[Creates assumption memo]
+    subgraph Employer[RR. HH. and quality manager]
+      E[Open one of two pieces] --> F[Rehearse one handoff]
+      F --> G[Agree real criterion and response date externally]
+      G --> H[RR. HH. routes an eligible application]
+      H --> I[Named reviewer responds on time]
     end
-    subgraph David[David / pilot provider]
-      D1[Reconstructs current workflow before showing price]
-      D2[Explains the five-review offer]
-      D3[Does not relabel assumptions as evidence]
-      D4[Records the payer's actual response]
+    subgraph Record[Measurement]
+      J[Record channel and staff time]
+      K[Count adoption once per vacancy]
     end
-    subgraph Worker[Worker boundary]
-      W1[Pays MX$0]
-      W2[Shares no data with calculator]
-      W3[Retains consent and existing application path]
-    end
-
-    D1 --> B1 --> C1 --> C2 --> C3 --> B2 --> B3
-    D2 --> B4
-    C3 --> C4 --> C5 --> D3 --> D4
-    W1 --> W2 --> W3
+    D --> E
+    E --> J
+    I --> K
 ```
 
-## Benchmark line
+## Distribution and honest results
 
-**Best existing solution on Earth for this feature:** Upwork's Cost of Vacancy Calculator turns a small set of employer inputs into a visible vacancy-cost estimate and publishes its calculation method and limits.
+Start with one opt-in channel, one-to-one WhatsApp to relevant Mexican textile hiring managers who consented to receive the material. Share the case and PDF checklist using the same next action. Log unique deliveries and replies, voluntary confirmation of an open or download when shared, a real vacancy commitment, routing, response and total staff minutes. Use coded records outside the site, report aggregates and keep applicant records out of the log. If a later broad post is possible, compare the same example and next action at comparable staff effort. Deduplicate across routes and vacancies.
 
-**How Primer Peldaño differs or localizes:** La tarifa en vivo uses MXN, compares the same five-review task on both sides, separates buyer value from provider margin, attaches an evidence status to every input, saves scenarios locally, and refuses to turn vacancy value into a hiring promise or worker score.
+**Expectation.** A concrete handoff example before publication should invite more useful replies than a generic pitch. The first sign is a real employer naming a vacancy and a reviewer. The separate proposed efficiency threshold is at least 20% less staff time for five criterion-linked responses with review quality preserved. The 8% example and illustrative outreach results in Brain Bending are hypothetical.
 
-The broader product benchmark remains Opportunity@Work's STARs Hiring Playbook, which helps employers replace pedigree screens with skills-first practices. CONOCER remains the strongest Mexican institutional comparator for formally recognizing competence learned through formal, informal, or empirical routes; Primer Peldaño does not certify or replace it.
+**Observed at packet kickoff.** No field distribution was documented. Reach, clicks and captures are unmeasured and verified adoptions have no evidenced count. A test that has yet to run has no reply rate. Keep the bounded next step. If opt-in readers open the pieces and do not propose a role or vacancy, ask which handoff decision is missing before making more content.
 
-Primary references:
+## Blueprint, test plan and three-year direction
 
-- [Upwork - Cost of Vacancy Calculator](https://www.upwork.com/tools/cost-of-vacancy-calculator)
-- [Greenhouse - What is cost per hire?](https://www.greenhouse.com/uk/resources/glossary/what-is-cost-per-hire)
-- [Opportunity@Work - STARs Hiring Playbook](https://www.opportunityatwork.org/take-action/psh/public-sector/stars-hiring-playbook)
-- [CONOCER - How to certify competencies](https://conocer.gob.mx/certifico-mis-competencias/)
+The five-founder blueprint supplied for the week is a pre-session draft. It calls for permission-based outreach, meaningful action, visible evidence status, and no unverified hiring judgment or exposed applicant records. The Week 15 public workflow applies those conditions. Attendance, peer mismatch and decisions require a record of the live session.
 
-## Three-year long view
+Mechanically test the two piece links, the synthetic rehearsal, blank selection, invalid options, download/reset, legacy routes and evaluator access on desktop and phone. Use a fresh conversation to simulate one source-grounded RR. HH. user, record observed confusion in the tested workflow, and fix and retest any reproduced problem. Keep the simulated walkthrough distinct from the audience test.
 
-If this slice works, Primer Peldaño becomes a worker-controlled evidence infrastructure with a credible commercial layer: employers can price one bounded review commitment before asking workers to invest effort. Over three years, comparable scenarios and real pilot outcomes could reveal which openings, evidence standards, and delivery models create value without ranking people or selling their records. The product succeeds only if commercial growth strengthens worker agency, pays for careful human review, and leaves unsupported claims visible rather than smoothing them away.
-
-## Scope cut
-
-This week does **not** build payments, invoices, contracts, CRM, employer accounts, cloud sync, multi-user collaboration, production analytics, candidate intake, evidence upload, identity verification, certification, reviewer assignment, employer messaging, hiring recommendations, or automatic pricing. It does not calculate an individual's economic worth, predict a hire, rank candidates, estimate a worker's salary, or promise that reducing screening time reduces vacancy duration.
-
-The tool does not claim that MX$12,000 is accepted, that MX$6,000 is the real delivery cost, that five reviews are sufficient, or that MX$120,000 of value exists. A genuine payer conversation and any purchase decision happen outside the app and must be documented without invention.
-
-## Pricing model and formulas
-
-All monetary fields use MXN. Calculations run in the browser with ordinary deterministic arithmetic.
-
-| Output | Formula | Interpretation |
-|---|---|---|
-| Current comparable cost | `(review hours per case x 5 + clarification hours) x loaded employer hourly cost + current external costs` | Cost of the same bounded five-case task, not the employer's entire hiring process. |
-| Pilot price | User-entered price; invented default `MX$12,000` | Amount the employer would pay. It is not provider revenue evidence until purchased. |
-| Required value at 10:1 | `pilot price x 10` | Threshold only; never a demonstrated return by default. |
-| Provider delivery cost | `delivery hours x delivery hourly cost + tools/admin` | Seller-side estimate kept separate from buyer value. |
-| Contribution | `pilot price - delivery cost` | Before fixed costs, sales, taxes, and development. |
-| Contribution margin | `contribution / pilot price` | Invalid when pilot price is zero. |
-| Comparable employer value | `validated time saved x loaded hourly cost + validated other value` | Includes only benefits the payer can explain and defend; vacancy value is optional and assumed unless measured. |
-| Value-to-price ratio | `comparable employer value / pilot price` | Shows `not demonstrated` whenever inputs are incomplete, invalid, or the ratio is below 10. |
-
-The initial commercial floor is MX$10,000 only if the MX$6,000 delivery-cost assumption holds; that would produce a 40% contribution margin before fixed costs. The calculator must show the dependency rather than present the floor as fact.
-
-## Shadow clause
-
-- Paying more never buys more worker data, hidden rankings, behavioral analytics, or cross-opening reuse.
-- The calculator accepts process economics only; no candidate or employee personal data is allowed.
-- A saved scenario stays on the current device unless the user deliberately exports it.
-- The pilot price buys a bounded process: five human reviews, declared criteria, worker-authorized submissions, criterion-linked decisions, and a response deadline.
-- The existing application path remains available with the same deadline and review standard.
-- Any claim that the pilot changes vacancy duration, quality of hire, retention, or revenue must be marked assumed until measured against a comparable baseline.
-- A failed 10:1 result is a valid output and must never be visually hidden, softened, or auto-corrected.
-
-## Architecture and free stack
-
-| Layer | Choice | Week 14 boundary |
-|---|---|---|
-| App | Next.js 16 + React 19 + TypeScript | New pricing route inside the preserved Primer Peldaño interface. |
-| Styling | Tailwind CSS 4 | Responsive, keyboard-accessible editorial interface; status never depends on color alone. |
-| Calculation | Pure deterministic TypeScript module | Decimal-safe money helpers, visible formulas, no AI, no hidden coefficients. |
-| Validation | Typed allow-list and field-level constraints | Bounded labels and numeric ranges; reject NaN, Infinity, negative values, and overlong text. |
-| Persistence | Versioned browser `localStorage` | Up to 20 scenarios, no sync, no personal data, explicit delete/reset/export. |
-| Export | Print stylesheet plus JSON backup | One-page decision memo and portable scenario data; user initiated only. |
-| Data | No production database | No auth required because no personal or server-side data is stored. |
-| Hosting | Vercel | Dedicated Week 14 project and deployment history. |
-| Source | Dedicated GitHub repository | Separate from Week 13; at least five ordered Week 14 commits. |
-
-## Scenario data boundary
-
-Allowed fields are: scenario ID, schema version, created/updated timestamps, bounded vacancy label, five-review baseline inputs, pilot price, provider-cost inputs, employer-value inputs, evidence status per input, and an optional 240-character assumption note. Disallowed fields include person names, contact information, employer secrets, candidate evidence, protected characteristics, free-form resumes, browser fingerprints, IP addresses, and analytics identifiers.
-
-## Test plan
-
-### Mechanical pass
-
-1. Unit-test every formula, rounding rule, zero-price guard, margin boundary, and evidence-status verdict.
-2. Test field limits, invalid numbers, empty required values, schema migration, corrupted local data, 20-scenario cap, duplicate, delete, reset, export, and import rejection.
-3. Add contract tests that fail if candidate-data fields, a global candidate score, or a default 10:1 success claim appears.
-4. Run tests, type checking, lint, production build, and a tracked-secret scan.
-5. Deploy release 1 to a dedicated Week 14 Vercel project and verify anonymous desktop and 390 x 844 mobile access.
-6. Exercise the complete live flow, record at least one real defect, fix it, rerun all checks, and deploy release 2.
-
-### Persona pass
-
-Use a fresh independent chat with an invented owner of a 35-person Mexican manufacturing business who is comfortable with spreadsheets but skeptical of HR software, reads slowly on a phone, and will abandon a tool if it mixes cash cost with speculative value. Show screenshots in order, ask the persona to complete one scenario without coaching, record every hesitation, and fix the highest-consequence confusion. Label the result synthetic; it is not payer evidence.
-
-### Real payer conversation
-
-Ask one real budget owner to reconstruct their current five-case screen before revealing the product or price. Then present the exact MX$12,000 five-review offer and request a concrete next step. Record rejection, partial interest, requested proposal, pilot refusal, signed agreement, or payment neutrally. A hypothetical yes is not demand.
-
-## Acceptance criteria
-
-- The public route loads anonymously and uses invented defaults visibly labeled as such.
-- The calculator compares exactly five current reviews with exactly five pilot reviews by default.
-- Every editable business input has a visible measured, quoted, or assumed status.
-- All formulas and included/excluded costs are visible in plain Spanish.
-- Employer value, employer cost, provider delivery cost, and provider contribution remain separate.
-- The default scenario does not meet 10:1 and explains what evidence is missing.
-- The MX$120,000 threshold updates directly from the pilot price.
-- Scenarios can be saved, reopened, duplicated, compared, renamed, deleted, exported, and reset locally.
-- Corrupted or outdated local data fails safely without losing valid scenarios.
-- No scenario is transmitted, and no candidate or worker data is requested or stored.
-- No ranking, match percentage, hiring prediction, or automated recommendation appears.
-- The interface works by keyboard, survives 200% zoom, and has no horizontal overflow at 390 px.
-- At least one documented mechanical defect and one persona confusion are fixed before deployment 2.
-- GitHub and Vercel resources are dedicated to Week 14; Week 13 remains intact.
-
-## Commit and deployment sequence
-
-1. **Packet before code:** packet, generated mockup, implementation prompt, and Week 14 decision entry.
-2. **Calculator core:** typed scenario model, validation, pure formulas, and unit tests.
-3. **Working interface:** responsive calculator, evidence statuses, threshold verdict, and formula disclosure; deploy release 1.
-4. **Saved scenarios:** local persistence, compare, duplicate, delete, reset, print, and export.
-5. **Test fix:** document a real live defect and the fresh persona confusion, fix the highest-consequence issue, and deploy release 2.
-6. **Submission evidence:** final decision log, testing record, persona log, build transcript, demo script, PDFs, live URL, and repository link.
-
-## Evidence still required
-
-- A real budget owner's current five-case screening baseline.
-- A real payer response to the MX$12,000 offer.
-- Measured delivery hours and tools/admin cost.
-- Comparable outcomes showing whether the pilot changes reviewer effort, clarification, decision usefulness, vacancy time, or later employment outcomes.
-- Fresh persona-test observations and the resulting fix.
-- Two verified Week 14 deployments.
-
-Until those events occur, the calculator is a disciplined conversation instrument, not proof of demand, profitability, or a 10:1 return.
+In three years, Primer Peldaño could help several employers make permitted, worker-controlled evidence review routine. Expand roles and shop-floor contexts after a verifiable handoff, preserved review quality and manageable delivery effort. Growth must respect worker consent and keep review accountable to a human.
