@@ -1,47 +1,35 @@
-# Demo video script - Primer Peldaño Week 14 (3:30)
+# Primer Peldaño · Week 15 demo
 
-Record `https://week-14-primer-peldano.vercel.app` with invented figures only. Keep the final 30 seconds for what changed your mind.
+### 0:00–0:35 · Open the release and set the audience
 
-## 0:00-0:25 - A calculator allowed to fail
+Open [the live release](https://week-15-primer-peldano.vercel.app/) in an anonymous window. Show the resource cards.
 
-**On screen:** Show the headline and boundary card.
+“Primer Peldaño is built for the person at a Mexican textile plant who is about to open a second-shift quality-control vacancy. RR. HH. controls the first screen and Calidad reviews the evidence. Before posting, they can agree how one permitted work example will reach the reviewer.”
 
-**Say:** “Primer Peldaño now has a proposed price: MX$12,000 for one bounded opening and five human reviews. La tarifa en vivo is not an ROI pitch. It is a calculator designed to reveal when that price cannot yet be defended. Every default is invented, calculations stay on this device, and no candidate data belongs here.”
+### 0:35–1:15 · Take the case to the next action
 
-## 0:25-1:05 - Reconstruct the current task
+Open [Caso de turno](https://week-15-primer-peldano.vercel.app/caso). Highlight the fictional label, the three owners and the clarification.
 
-**On screen:** Show `Proceso actual` and evidence-status controls.
+“This is an invented case about an open seam. Calidad agrees to look for a defect, an action and a way the worker checked the result. RR. HH. routes the description before the first CV screen. The reviewer asks how the next sample was checked. The response is limited to the stated criterion.”
 
-**Say:** “The unit stays comparable: five reviews on each side. The employer enters review time, clarification, loaded labor cost, and external costs. Every input is marked measured, quoted, or assumed. The default current-process cost is MX$3,450, but that is an example, not a baseline from a real employer.”
+### 1:15–1:50 · Trace the source and show the second piece
 
-## 1:05-1:40 - Keep buyer and provider economics separate
+Open [Lista para RR. HH.](https://week-15-primer-peldano.vercel.app/semana-15/lista-rh.pdf). Point to the source and demonstrate the PDF call to action.
 
-**On screen:** Show price, delivery-cost inputs, and provider economics.
+“OCC’s real publishing instructions show when employers set education, experience, hours and duties. The research step identified that moment. Writing translated it into four decisions, visual production made a printable checklist, and claim and style review checked the source, plain Spanish and the invented label. The founder reviews the exact messages before any outreach.”
 
-**Say:** “The employer price is MX$12,000. Separately, estimated delivery is 8.5 hours at MX$600 plus MX$900 in tools and administration: MX$6,000. That leaves MX$6,000 contribution, or 50 percent, before fixed costs, sales, tax, and development. Mixing these numbers would make both the buying case and the business model dishonest.”
+### 1:50–2:35 · Generate the practice agreement
 
-## 1:40-2:15 - Test the 10:1 claim
+Open [the rehearsal](https://week-15-primer-peldano.vercel.app/#ensayo). Select the defect criterion, written description, quality lead and two working days. Generate the agreement. Show the real-vacancy instruction and download control.
 
-**On screen:** Show comparable value, the 8.3:1 card, and the failed verdict.
+“Both pieces lead here. The visitor rehearses with fixed options. The agreement is generated in the browser and contains no applicant records. A real vacancy still needs an agreed eligible case, reviewer, internal route and response date. The simulation with an HR lead prompted us to put those steps on the result screen.”
 
-**Say:** “At a MX$12,000 price, 10:1 requires MX$120,000 of comparable employer value. This invented scenario enters MX$100,000 and reaches only 8.3 to 1, so the verdict says the threshold is not demonstrated. Even if I raise the number above MX$120,000, the interface says it is only mathematical while the value inputs remain assumptions.”
+### 2:35–3:00 · State the field status
 
-## 2:15-2:45 - Save scenarios without collecting leads
+Return to the resource library and briefly open the limits of review.
 
-**On screen:** Save, reopen, duplicate, print, export, and delete an invented scenario.
+“The field plan is to send the case and checklist through one-to-one, opted-in WhatsApp, then record real replies and completed reviews. Reach, clicks and captures are unmeasured. The anonymized examples in the packet are synthetic.”
 
-**Say:** “Scenarios remain in this browser. They can be reopened, duplicated, printed, exported, or deleted, but there is no account, remote analytics, or sales lead capture. A malformed local record initially hid valid scenarios; the mechanical test caught it, and the loader now preserves each valid record.”
+### 3:00–3:30 · What changed
 
-## 2:45-3:00 - Verification
-
-**On screen:** Show the stable URL and mobile layout.
-
-**Say:** “Thirty-one automated tests, strict type checking, lint, and the production build pass. The 390 by 844 mobile layout has no horizontal overflow. Five Week 14 commits and two production deployments live in a separate repository, preserving Week 13.”
-
-## 3:00-3:30 - What changed my mind
-
-**On screen:** Return to `Umbral 10:1 no demostrado`.
-
-**Say:** “What changed my mind is that price discipline is not choosing an impressive number. It is preserving the conditions under which the number is false. The product can structure the conversation, but it cannot manufacture the payer’s baseline, acceptance, or outcome. The next proof is a real budget owner choosing a concrete next step after seeing the exact MX$12,000 offer.”
-
-Target filename: `DEMO_David_Buzali.mp4`.
+“Early on, I was comparing direct outreach with broad reach. The brief led to a more specific measure: can RR. HH. route one eligible case before the CV filter and can the named reviewer respond against the criterion on time? That is the verified adoption I would count, once per vacancy. The next evidence is a real employer trying that handoff, with staff time and review quality recorded separately.”

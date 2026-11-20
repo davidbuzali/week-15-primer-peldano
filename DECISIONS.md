@@ -120,3 +120,5 @@ The Week 9 history remains available in Git. Its last verified state used invent
 The audience is an RR. HH. lead and a quality manager about to open a second-shift textile quality vacancy. Ship two shareable pieces, one boundaries note and one synthetic rehearsal on a separate Week 15 release based on this history. The same next action should work from both pieces. Keep real identities, marketing analytics and applicant evidence outside the product.
 
 Next move after verification is to secure David's approval of two outreach messages and use one opt-in channel. Track commitments and one verified adoption per vacancy separately. The blueprint is a pre-session draft. The 8% example and outreach counts from Brain Bending are hypothetical.
+
+The same-chat simulation identified ambiguity about the transition from practice to the internal vacancy workflow. The revised result includes the eligibility rule, recipient and calendar date to confirm. Keep the fictional log example outside all audience metrics. The next field milestone depends on the founder approving the outreach and putting the two pieces in front of consenting employers.

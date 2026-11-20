@@ -92,3 +92,33 @@ The five-founder blueprint supplied for the week is a pre-session draft. It call
 Mechanically test the two piece links, the synthetic rehearsal, blank selection, invalid options, download/reset, legacy routes and evaluator access on desktop and phone. Use a fresh conversation to simulate one source-grounded RR. HH. user, record observed confusion in the tested workflow, and fix and retest any reproduced problem. Keep the simulated walkthrough distinct from the audience test.
 
 In three years, Primer Peldaño could help several employers make permitted, worker-controlled evidence review routine. Expand roles and shop-floor contexts after a verifiable handoff, preserved review quality and manageable delivery effort. Growth must respect worker consent and keep review accountable to a human.
+
+## Release evidence and outreach handoff
+
+- [Production release](https://week-15-primer-peldano.vercel.app/)
+- [Source and commit history](https://github.com/davidbuzali/week-15-primer-peldano)
+- [Finished case](https://week-15-primer-peldano.vercel.app/caso)
+- [Finished print checklist](https://week-15-primer-peldano.vercel.app/semana-15/lista-rh.pdf)
+- [Finished limits of review](https://week-15-primer-peldano.vercel.app/revision)
+- [Shared next action](https://week-15-primer-peldano.vercel.app/#ensayo)
+
+**Message A for an opted-in contact.** “Hola. Te comparto el caso de una costura abierta para una vacante de calidad en segundo turno. Es ficticio y muestra cómo RR. HH. puede canalizar una descripción a Calidad antes del filtro de CV. Al final puedes ensayar el acuerdo. ¿Te serviría al preparar una vacante?” [Caso de turno](https://week-15-primer-peldano.vercel.app/caso)
+
+**Message B for an opted-in contact.** “Te comparto una lista de una página para acordar criterio, evidencia, responsable y fecha con Calidad antes de publicar. El PDF enlaza al mismo ensayo. ¿Qué punto necesitarías resolver primero?” [Lista para RR. HH.](https://week-15-primer-peldano.vercel.app/semana-15/lista-rh.pdf)
+
+**Actual field result.** No distribution was executed in this build. Reach, clicks, captures and real adoptions are unmeasured. Approval and opted-in delivery remain field steps.
+
+**Synthetic anonymized log example for practicing the reporting method.** These entries are invented and excluded from actual results.
+
+| Code | Piece | Illustrative action | Adoption |
+| --- | --- | --- | --- |
+| SIM-01 | Case | Acknowledges reading and asks who should receive the case | Unverified, no live handoff |
+| SIM-02 | Checklist | No reply in the example window | Unverified, no live handoff |
+
+In the synthetic example, two messages go out, one recipient acknowledges reading, no clicks are instrumented, and no adoption is verified. The example shows why an acknowledgement can help improve wording without proving workflow use.
+
+**Test and response.** The same-chat synthetic persona asked how to move from the rehearsal to a real vacancy. The result and download now tell RR. HH. to confirm eligibility, recipient and date with Calidad before publishing. Mechanical evidence is in docs/TESTING.md and the simulation is in docs/PERSONA.md.
+
+**Deployment history.** The [first release](https://vercel.com/davidbuzali/week-15-primer-peldano/BNuQW8hnCAtbp266h7eFcoCkR6Gr) shipped the case, checklist, review guidance and rehearsal. The [second release](https://vercel.com/davidbuzali/week-15-primer-peldano/3QEHXdHbEDuU5nMJq8V7pD2z7qtB) included the user-facing handoff clarification and regression tests. The production alias is the evaluator link.
+
+**Mechanical evidence.** Thirty-three automated tests pass. The production rehearsal rejected a blank form, generated the selected values and cleared them on reset. At 390 × 844 the document had no horizontal overflow. The revised result and export text carry the same internal-channel instruction. The in-app browser did not confirm a file save event.
