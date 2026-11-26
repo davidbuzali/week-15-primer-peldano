@@ -1,12 +1,14 @@
-# Primer Peldaño · Week 15
+# Primer Peldaño · Week 16
 
 A Spanish-language resource and evidence-handoff rehearsal for RR. HH. and quality leads opening a Mexican textile quality-control vacancy.
 
 - [Production release](https://week-15-primer-peldano.vercel.app/)
+- [Five-panel defense](https://week-15-primer-peldano.vercel.app/about)
 - [Case study](https://week-15-primer-peldano.vercel.app/caso)
 - [Printable checklist](https://week-15-primer-peldano.vercel.app/semana-15/lista-rh.pdf)
 - [Fictional rehearsal](https://week-15-primer-peldano.vercel.app/#ensayo)
 - [Packet](docs/PACKET.md), [persona evidence](docs/PERSONA.md), [mechanical evidence](docs/TESTING.md) and [decisions](DECISIONS.md)
+- [Week 16 submission checklist](docs/SUBMISSION_CHECKLIST.md)
 
 The release continues the Primer Peldaño history. The [Week 14 calculator](https://week-15-primer-peldano.vercel.app/tarifa) and [worker-evidence demo](https://week-15-primer-peldano.vercel.app/evidence) remain accessible.
 

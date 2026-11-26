@@ -1,3 +1,29 @@
+# Primer Peldaño · Week 16 recording guide
+
+**Deliverable** · DEMO_David_Buzali.mp4 · 3:00 walkthrough and 0:30 reflection.
+
+### 0:00–0:35 · Open the public case
+
+Start in a signed-out window on the [live site](https://week-15-primer-peldano.vercel.app/). Use a phone or a 390 × 844 browser viewport. Open **Ver caso de turno**. Say who uses this workflow and why it matters before the first CV filter. Point out the fictitious case and how Calidad asks for a written, criterion-linked clarification.
+
+### 0:35–1:35 · Complete and download the practice agreement
+
+Follow **Ensayar el acuerdo**. Press **Generar acuerdo** with the fields empty. Say that the browser blocks the four required choices and the result stays absent. Select the defect, action and verification criterion, the permitted de-identified shift log, the quality lead and five working days. Generate the agreement and open the downloaded text. Point to the four matching choices, the fictitious label and the instruction to use the company's internal channel for a real vacancy.
+
+### 1:35–2:15 · Show the keyboard fix
+
+Return to the case. Use the [before snapshot](assets/week16-focus-before.png) with the exact observation that the page scrolled while focus stayed on the body. Then use the keyboard to activate **Ensayar el acuerdo** on the live site. Point to the outline around the rehearsal. Press **Tab** once to reach **Criterio de revisión**. You can use the [after snapshot](assets/week16-focus-after.png) as a reference.
+
+### 2:15–3:00 · Open the defense
+
+Open the [five-panel defense](https://week-15-primer-peldano.vercel.app/about). Walk through need, product, users, price and next step. Describe MX$12,000 as an employer pricing hypothesis and MX$0 as the worker price. Explain the next field check. With a participating employer, run two equally eligible fictional cases through its real routing process and confirm that Calidad gives both a reason by the agreed date. The public rehearsal does not send cases.
+
+### 3:00–3:30 · Explain what changed your mind
+
+Use your own words. A visible form did not guarantee that keyboard users knew where to continue. The browser replay showed the gap and gave you a specific check for the fix. The Week 15 source review also stopped an unsupported claim before publication. The next decision depends on evidence that eligible submissions reach Calidad without founder reminders. That matters more than broadening reach because an unreviewed submission costs the worker time.
+
+---
+
 # Primer Peldaño · Week 15 demo
 
 ### 0:00–0:35 · Open the release and set the audience

@@ -1,6 +1,6 @@
 # Week 16 test evidence
 
-Chrome with fresh contexts, 25 November 2026. The 390 × 844 viewport emulates a phone. The baseline used the existing anonymous Vercel release. The first retest ran against the local production build.
+Chrome with fresh contexts, 25 November 2026. The 390 × 844 viewport emulates a phone. The baseline used the existing anonymous Vercel release. The local production build and the promoted Vercel alias both passed the same retest. The production checks used no account or access token.
 
 | Check | Expected | Actual |
 | --- | --- | --- |

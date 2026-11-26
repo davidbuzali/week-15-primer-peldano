@@ -41,12 +41,18 @@ flowchart LR
 
 1. Walk from /caso through /#ensayo in a fresh mobile browser. Record view width, four selections, focus after submit, a completed text download and the exact output boundaries.
 2. Submit the empty synthetic form and confirm it creates no agreement and sends no data. Rerun the Week 15 source-to-claim review against a private unsupported outcome claim. Trace the publication decision and use a sourced control.
-3. Enter the rehearsal from the case with a keyboard. Check that focus and the next Tab move into the rehearsal, that every control is named, and that the result and download remain reachable. Validate route access, data boundaries and package checks. Run a source-grounded fictional RR. HH. screen walkthrough in a fresh chat and record its exact response in the existing persona evidence.
+3. Enter the rehearsal from the case with a keyboard. Check that focus and the next Tab move into the rehearsal, that every control is named, and that the result and download remain reachable. Validate route access, data boundaries and package checks. The original plan used a fresh chat for the source-grounded fictional RR. HH. walkthrough. David directed the exercise to the build chat after the browser blocked the separate-chat submission. The simulation and response are in [PERSONA.md](PERSONA.md).
 4. Keep the Week 16 team blueprint as a pre-session source. David’s proposal is to trace an authorized submission that disappears before Calidad. The demo tests the local workflow. Evidence from the employer’s actual route, a live team decision and peer dissent require records from those sessions.
 
 **Final shadow clause.** At scale an employer could invite workers to spend time preparing evidence, quietly discard it at the title filter, or reuse it for undisclosed screening. Publish an actual opening, permitted evidence, a named human reviewer and a deadline before asking for effort. Ask for consent, minimize identifiers, restrict use to that opening, route eligible evidence before the title filter, and give written criterion-linked reasons. Pause expansion when a case disappears or a deadline is missed. The public demo takes only fixed synthetic choices and cannot send a hiring decision or retain an applicant record.
 
 **Three-year direction.** Establish credible routing and response for this one role, then expand to adjacent roles with participating Mexican employers only when review is timely, consent and criterion consistency hold, and delivery effort supports a sustainable pilot. Track completion and access without creating a transferable worker score.
+
+## Release evidence
+
+The Vercel production alias served the Week 16 release in a signed-out browser. The 390 × 844 phone check confirmed the local UTF-8 download. The same keyboard task moved focus to the rehearsal after the fix. [Live release](https://week-15-primer-peldano.vercel.app/) · [Five-panel defense](https://week-15-primer-peldano.vercel.app/about) · [Week 16 source and history](https://github.com/davidbuzali/week-15-primer-peldano/tree/codex/week-16-hardening)
+
+The [Week 16 deployment](https://vercel.com/davidbuzali/week-15-primer-peldano/A7fFbwMHAkK1BW785Rvo44e26p5B) continues the [initial Week 15 release](https://vercel.com/davidbuzali/week-15-primer-peldano/BNuQW8hnCAtbp266h7eFcoCkR6Gr) and the [Week 15 handoff fix](https://vercel.com/davidbuzali/week-15-primer-peldano/3QEHXdHbEDuU5nMJq8V7pD2z7qtB).
 
 ---
 
