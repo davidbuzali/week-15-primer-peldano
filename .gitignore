@@ -10,3 +10,4 @@ tmp
 
 # The original build conversation contains private project context.
 output/pdf/week15/BUILDCHAT_*.pdf
+output/pdf/week16/BUILDCHAT_*.pdf
