@@ -57,6 +57,7 @@
 .distribution-cards a { width: fit-content; display: inline-flex; align-items: center; min-height: 44px; gap: 8px; color: var(--edition-accent); font-weight: 750; text-decoration: none; }
 .distribution-rehearsal { display: grid; grid-template-columns: .8fr 1.2fr; gap: 32px; padding: clamp(20px,4vw,48px); margin-bottom: 52px; background: #e7eee6; scroll-margin-top: 12px; }
 .distribution-rehearsal h2 { margin-block: 8px 16px; }
+.distribution-rehearsal:focus-visible { outline: 3px solid var(--edition-accent); outline-offset: 4px; }
 .distribution-rehearsal p { max-width: 38rem; }
 .distribution-rehearsal-panel { padding: clamp(15px,2.5vw,27px); background: #fffdf8; border: 1px solid #aebdb5; min-width: 0; }
 .distribution-vacancy { font-weight: 750; margin-bottom: 14px; }
@@ -77,6 +78,17 @@
 .distribution-steps h2 { font-size: clamp(1.5rem, 4vw, 2.05rem); margin-bottom: 6px; }
 .distribution-steps p { max-width: 62ch; color: var(--ink-soft); }
 .distribution-steps .distribution-role { font-size: .8rem; color: var(--edition-accent); font-weight: 800; margin-bottom: 5px; }
+.distribution-defense { padding: 0; margin: 30px 0 0; list-style: none; }
+.distribution-defense li {
+  padding: clamp(20px, 4vw, 33px);
+  margin-bottom: 14px;
+  border: 1px solid #c7bcab;
+  background: #fcf8f0;
+}
+.distribution-defense li:nth-child(odd) { background: #e7eee6; }
+.distribution-defense h2 { margin-block: 7px 12px; }
+.distribution-defense p { max-width: 62ch; }
+.distribution-defense a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 720; color: var(--edition-accent); }
 .distribution-action { padding: 17px; background: #e7eee6; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
 .distribution-footer { border-top: 1px solid #c7bcab; padding-block: 16px; color: var(--ink-soft); font-size: .82rem; }
 

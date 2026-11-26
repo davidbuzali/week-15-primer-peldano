@@ -10,14 +10,15 @@ export function Editorial({ children }: { children: ReactNode }) {
           <Link className="distribution-brand" href="/">Primer Peldaño<span aria-hidden="true">.</span></Link>
           <nav aria-label="Primer Peldaño">
             <Link href="/caso">Caso de turno</Link>
-            <Link href={rehearsalLink}>Ensayar el acuerdo</Link>
+            <a href={rehearsalLink}>Ensayar el acuerdo</a>
           </nav>
         </div>
       </header>
       <main className="distribution-main">{children}</main>
       <footer className="distribution-footer">
         <span>Primer Peldaño · Contratación por habilidades</span>
-        <nav aria-label="Herramientas anteriores">
+        <nav aria-label="Información y herramientas">
+          <Link href="/about">Defensa del proyecto</Link>
           <Link href="/tarifa">Calculadora del piloto</Link>
           <Link href="/evidence">Demo de evidencia</Link>
         </nav>
@@ -27,5 +28,5 @@ export function Editorial({ children }: { children: ReactNode }) {
 }
 
 export function RehearsalLink() {
-  return <Link className="distribution-button" href={rehearsalLink}>Ensayar el acuerdo <span aria-hidden="true">↗</span></Link>
+  return <a className="distribution-button" href={rehearsalLink}>Ensayar el acuerdo <span aria-hidden="true">↗</span></a>
 }

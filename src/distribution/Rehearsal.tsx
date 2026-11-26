@@ -30,7 +30,7 @@ export default function Rehearsal() {
   }
 
   return (
-    <section className="distribution-rehearsal" id="ensayo" aria-labelledby="rehearsal-title">
+    <section className="distribution-rehearsal" id="ensayo" aria-labelledby="rehearsal-title" tabIndex={-1}>
       <div>
         <p className="distribution-kicker">Ejemplo ficticio</p>
         <h2 id="rehearsal-title">Ensaya el acuerdo de revisión</h2>
