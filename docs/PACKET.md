@@ -1,4 +1,57 @@
-# Primer Peldaño · Week 15 Business Bending
+# Primer Peldaño · Week 16 Hardening
+
+**David Buzali · Individual release defense · 25 November 2026**
+
+## Build contract
+
+Workers who learned on the job can lose access to a quality-control vacancy when the first CV screen ignores evidence of what they can do. The direct user is the RR. HH. lead drafting a second-shift textile quality-control posting in Mexico, working with the quality lead who owns the review criterion and response. The worker owns permission to share the example and pays MX$0. This is a concrete application of my commitment to reduce how unequal learning opportunities narrow the choices people have in Mexico.
+
+**Release success.** In a fresh phone-sized browser, a first-time visitor can move from the fictional case to a four-choice agreement, identify the criterion, accepted evidence, reviewer and response window, and download it without sending a case or entering personal data. The visitor can use the core path by keyboard and find a five-slide defense at /about. Record expected and actual outcomes, fix and rerun the most consequential reproducible issue, and carry the result into the demo.
+
+**Field success.** RR. HH. independently routes two equally eligible, authorized synthetic examples through its actual employer process before the usual CV or title filter. Calidad provides criterion-linked written reasons by the agreed date. The employer and the original records must establish that handoff. Real adoption has no verified count. Prioritize the handoff until it works without founder reminders, then check whether workers discover and understand the accepted alternative when they read the vacancy.
+
+**Scope and architecture.** Keep the current Next.js, React and TypeScript venture and its existing Vercel project. The public home rehearsal uses allowlisted options, a browser-only agreement and a local text download. Keep the case, PDF checklist, guidance, earlier worker demo and pricing calculator. Harden observed failures and add the required defense at /about. The sprint excludes applicant intake, automated scoring, a live employer inbox and database expansion. The repository's optional owner-scoped Supabase migration remains outside the public flow. The editor checks claims offline before publication.
+
+**Benchmark and adaptation.** Opportunity@Work’s STARs Hiring Playbook shows ways to include workers Skilled Through Alternative Routes. OCC’s publication guide places experience, schooling, skills and schedule before posting. Primer Peldaño localizes the decision to a plain-Spanish, second-shift textile example, uses a shareable log or self-authored description, and names the human reviewer and deadline ahead of worker effort. The two sources support the design rationale. Employer behavior and willingness to pay still require evidence.
+
+- [Opportunity@Work STARs Hiring Playbook](https://www.opportunityatwork.org/take-action/psh/public-sector/stars-hiring-playbook)
+- [OCC employer publication guide](https://supportcenter.occ.com.mx/hc/es/articles/41245639854737-Publica-tu-primera-vacante-en-OCC)
+
+**Image-generated design reference.** This is the existing Week 15 concept of the editorial flow. Hardening keeps the design and retests how users move through it.
+
+![Image-generated Primer Peldaño concept](assets/primer-peldano-week15-mockup.png)
+
+```mermaid
+flowchart LR
+  subgraph Demo["Public demonstration"]
+    R["RR. HH. reads the fictitious case"] --> B["Browser validates four choices"]
+    B --> A["RR. HH. reads or downloads a practice agreement"]
+  end
+  subgraph Employer["Actual employer workflow to verify"]
+    Q["Calidad sets the criterion, evidence, reviewer and deadline"]
+    Q --> P["RR. HH. publishes the accepted alternative"]
+    P --> W["Worker chooses whether to share authorized evidence"]
+    W --> H["RR. HH. routes eligible evidence before CV or title filter"]
+    H --> C["Calidad gives a criterion-linked written response"]
+  end
+  A -. "Rehearsal informs planning" .-> Q
+```
+
+## Test plan and governing decisions
+
+1. Walk from /caso through /#ensayo in a fresh mobile browser. Record view width, four selections, focus after submit, a completed text download and the exact output boundaries.
+2. Submit the empty synthetic form and confirm it creates no agreement and sends no data. Rerun the Week 15 source-to-claim review against a private unsupported outcome claim. Trace the publication decision and use a sourced control.
+3. Enter the rehearsal from the case with a keyboard. Check that focus and the next Tab move into the rehearsal, that every control is named, and that the result and download remain reachable. Validate route access, data boundaries and package checks. Run a source-grounded fictional RR. HH. screen walkthrough in a fresh chat and record its exact response in the existing persona evidence.
+4. Keep the Week 16 team blueprint as a pre-session source. David’s proposal is to trace an authorized submission that disappears before Calidad. The demo tests the local workflow. Evidence from the employer’s actual route, a live team decision and peer dissent require records from those sessions.
+
+**Final shadow clause.** At scale an employer could invite workers to spend time preparing evidence, quietly discard it at the title filter, or reuse it for undisclosed screening. Publish an actual opening, permitted evidence, a named human reviewer and a deadline before asking for effort. Ask for consent, minimize identifiers, restrict use to that opening, route eligible evidence before the title filter, and give written criterion-linked reasons. Pause expansion when a case disappears or a deadline is missed. The public demo takes only fixed synthetic choices and cannot send a hiring decision or retain an applicant record.
+
+**Three-year direction.** Establish credible routing and response for this one role, then expand to adjacent roles with participating Mexican employers only when review is timely, consent and criterion consistency hold, and delivery effort supports a sustainable pilot. Track completion and access without creating a transferable worker score.
+
+---
+
+
+## Prior release evidence · Week 15 Business Bending
 
 **David Buzali · Distribution and verified adoption · 19 November 2026**
 
